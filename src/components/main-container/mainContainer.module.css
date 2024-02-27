@@ -1,0 +1,44 @@
+.content{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: #2AB3B1;
+}
+.lightblue{
+    background-color: #4ABFBD;
+}
+.span{
+    font-size: 1rem;
+    margin-left: 10px;
+    color: #94D9D8;
+}
+
+.container{
+    display: block;
+}
+
+  
+@media screen and (min-width: 425px) {
+   .container{
+    display: flex;
+    flex-wrap: wrap;
+   }
+      
+      .item1 {
+        width: 100%;
+      }
+      .item2 {
+       width: 50%; /* Coloca el elemento 2 en la segunda fila */
+      }
+      
+      .item3 {
+        width: 50%; /* Coloca el elemento 3 en la segunda fila */
+      }
+      
+    }
